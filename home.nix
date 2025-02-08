@@ -37,14 +37,18 @@ in {
         # tools
         gcc
         diffutils
+        which
         gnumake
         ripgrep
         fd
+        fzf
         bat
+        jq
         # cli
         neovim
         cowsay
         lolcat
+        fastfetch
         # langs
         rustup
         nodejs_23
