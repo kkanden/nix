@@ -134,6 +134,7 @@ in {
 
   programs.ssh = {
     enable = true;
+    package = pkgs.openssh;
   };
 
   programs.oh-my-posh = {
