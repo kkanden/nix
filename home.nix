@@ -44,6 +44,7 @@ in {
         fzf
         bat
         jq
+        gh
         # cli
         neovim
         cowsay
