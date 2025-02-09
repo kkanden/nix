@@ -45,6 +45,7 @@ in {
         bat
         jq
         gh
+        postgresql_17
         # cli
         neovim
         cowsay
