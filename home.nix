@@ -102,11 +102,9 @@ in {
   #  /etc/profiles/per-user/oliwia/etc/profile.d/hm-session-vars.sh
   #
 
-  home.shellAliases = rec {
-  };
-
   home.sessionVariables = {
     EDITOR = "nvim";
+    RIPGREP_CONFIG_PATH = "~/.config/.ripgreprc";
   };
 
   # programs.bash = {
