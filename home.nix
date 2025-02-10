@@ -51,6 +51,7 @@ in {
         cowsay
         lolcat
         fastfetch
+        spotify-player
         # langs
         rustup
         nodejs_23
@@ -104,7 +105,7 @@ in {
 
   home.sessionVariables = {
     EDITOR = "nvim";
-    RIPGREP_CONFIG_PATH = "~/.config/.ripgreprc";
+    RIPGREP_CONFIG_PATH = "$HOME/.config/.ripgreprc";
   };
 
   # programs.bash = {
